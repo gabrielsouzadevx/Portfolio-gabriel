@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html, body {
+
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    background: url(../imagens/renderizacao-3d-de-fundo-de-textura-hexagonal.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+main {
+    
+        height: 100vh;    
+        position: relative;
+        
+       
+
+
+}
+
+section#telefone {
+            position: absolute;
+            top: 50% ;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-image: url(../imagens/frame-iphone.png);
+            background-repeat: no-repeat;
+            background-position: top center;
+            height: 627px;
+            width: 311px;
+
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 471px;
+}
+
+section#rede-social {
+
+         text-align: right;   
+
+}
+
+section img{
+            
+            padding: 10px;
+            width: 60px;
+            height: 60px;
+            border-radius: 120px;
+}
+
+
+img:hover {
+     border: 1px solid rgba(255, 2, 2, 0.623);
+     transform: translate(-3px, -3px);
+            
+
+
+}
